@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "lanka-guide",
-    "slug": "lanka-guide",
+    "name": "LankaGuide-Multi-Language-Travel-App",
+    "slug": "LankaGuide-Multi-Language-Travel-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "lankaguide",
+    "scheme": "lankaguidemultilanguagetravelapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,11 +19,12 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.LankaGuideMultiLanguageTravelApp"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png"      
     },
     "plugins": [
       "expo-router",
